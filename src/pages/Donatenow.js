@@ -32,8 +32,8 @@ const Donatenow = () => {
                 <h3>Donate via UPI</h3>
                 <div className="n-donate-qr-wrapper">
                   {/* Replace with actual QR code image */}
-                  <img 
-                    src="/assets/scannerimage.jpg" 
+                  <img
+                    src="/assets/scannerimage.jpg"
                     alt="UPI QR Code"
                     className="img-fluid n-donate-qr"
                   />
@@ -43,26 +43,26 @@ const Donatenow = () => {
               </div>
             </div>
             <div className="col-md-6">
-                       <div className="n-donate-qr-card">
-               <h3>Donate via Bank Transfer</h3>
+              <div className="n-donate-qr-card">
+                <h3>Donate via Bank Transfer</h3>
 
                 <div className="n-donate-qr-wrapper">
-                    <h5 className="n-donate-bank-name">Naal Foundation SBI Account Details:</h5>
-                    <div><span className="colo-number-dontae">Account number: </span> 00000040086869541</div>
-                    <div><span className="colo-number-dontae">IFSC Code: </span>SBIN0003800</div>
-                    <div><span className="colo-number-dontae">MICR Code: </span>  413002562</div>
-                 
+                  <h5 className="n-donate-bank-name">Naal Foundation SBI Account Details:</h5>
+                  <div><span className="colo-number-dontae">Account number: </span> 00000040086869541</div>
+                  <div><span className="colo-number-dontae">IFSC Code: </span>SBIN0003800</div>
+                  <div><span className="colo-number-dontae">MICR Code: </span>  413002562</div>
+
 
 
                 </div>
                 <p className="n-donate-qr-instruction">Transfer amount to the above account number </p>
 
                 <p className="n-donate-note"></p>
-              
-              
+
+
               </div>
             </div>
-         
+
           </div>
         </div>
       </div>
