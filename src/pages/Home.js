@@ -18,10 +18,12 @@ const Home = () => {
       }
     }
   }, []);
+
+
   const slides = [
     {
       img: "/assets/HeroSlider/hero-1.jpeg",
-      text: "Naal Foundation supports deserving students through the Sir Thoraji Bapurao Chavan Scholarship, honoring his legacy and promoting excellence.",
+      text: "Naal Foundation supports deserving students through Sir Thoraji Bapurao Chavan Scholarship, honoring his legacy and promoting excellence.",
     },
     {
       img: "/assets/HeroSlider/hero-2.jpeg",
@@ -39,6 +41,7 @@ const Home = () => {
       img: "/assets/HeroSlider/hero-4.jpeg",
       text: "We provided financial assistance to families of farmers who lost their lives to suicide, offering relief in tough times.",
     },
+    
   ];
 
   return (
@@ -48,7 +51,7 @@ const Home = () => {
         id="heroCarousel"
         className="carousel slide carousel-fade  "
         data-bs-ride="carousel"
-        data-bs-interval="8000"
+        data-bs-interval="9000"
         data-bs-wrap="true"
       >
         {/* Indicators */}
@@ -201,7 +204,7 @@ const Home = () => {
       </section>
 
 
-      {/* <section id="mission-vision" className="section-padding bg-light">
+       {/* <section id="mission-vision" className="section-padding bg-light">
         <div className="container">
           <h2 className="section-title"> Mission & Vision</h2>
           <div className="row">
@@ -259,7 +262,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>  */}
 
 <section id="mission-vision" className="section-padding bg-light">
   <div className="container">
@@ -291,7 +294,7 @@ const Home = () => {
           </div>
           <div className=" text-start padding-boday-vission">
             <ul className="text-dark ">
-              <li>Progressive Rural Society – Building self-reliant, sustainable villages.</li>
+              <li>Green Initiatives – Promoting tree planting and environmental awareness.</li>
               <li>Student Empowerment – Guiding underprivileged students with scholarships.</li>
               <li>Health & Environment – Ensuring healthcare and greener communities.</li>
               <li>Agriculture Strength – Supporting farmers at the core of rural growth.</li>

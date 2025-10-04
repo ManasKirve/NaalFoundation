@@ -149,6 +149,7 @@ const Gallery = () => {
       category: "education",
       image: "/assets/Education/gallery-education-22.jpeg",
     },
+    
   ];
 
   const handleImageClick = (item) => {
